@@ -462,12 +462,11 @@ The input and output waveforms are observed using **Cadence ViVA**.
 | DC Operating Point     | ✅ Performed    |
 | AC Analysis            | ✅ Performed    |
 | Transient Analysis     | ✅ Performed    |
-| Gain/Phase Evaluation  | 🔄 In progress |
-| Layout                 | 🔄 In progress |
-| DRC                    | ⏳ Pending      |
-| LVS                    | ⏳ Pending      |
-| Parasitic Extraction   | ⏳ Pending      |
-| Post-Layout Simulation | ⏳ Pending      |
+| Gain/Phase Evaluation  | ✅ Performed |
+| Layout                 | ✅ Performed |
+| DRC                    | ✅ Performed       |
+| LVS                    | ✅ Performed       |
+
 
 ---
 
@@ -553,39 +552,6 @@ LVS = CLEAN / MATCHED
 
 ---
 
-# 🚧 Current Project Status
-
-The project is currently at the **schematic simulation and initial physical-layout stage**.
-
-### Completed
-
-* [x] Cadence Virtuoso environment setup
-* [x] GPDK090 technology setup
-* [x] Two-stage CMOS Op-Amp architecture
-* [x] Transistor-level schematic
-* [x] Op-Amp symbol
-* [x] Testbench
-* [x] DC operating-point analysis
-* [x] AC analysis
-* [x] Transient analysis
-* [x] Initial layout development
-
-### In Progress
-
-* [ ] Complete physical layout
-* [ ] Implement RC compensation components in layout
-* [ ] Complete all routing
-* [ ] Power and ground routing
-* [ ] Input/output pin verification
-
-### Planned
-
-* [ ] DRC
-* [ ] LVS
-* [ ] Parasitic extraction
-* [ ] Post-layout simulation
-* [ ] Compare pre-layout and post-layout performance
-* [ ] Final documentation
 
 ---
 
@@ -672,7 +638,7 @@ This project provides practical experience with:
 
 # 🚀 Future Work
 
-The next phase of the project will focus on completing the physical implementation.
+The next phase of the project will focus on completing the Op-amp applications like filters and oscillators  .
 
 The planned workflow is:
 
@@ -719,10 +685,3 @@ Mahatma Gandhi Institute of Technology (MGIT)
 
 ---
 
-## ⭐ Project Status
-
-**Status:** 🚧 Work in Progress
-
-**Current milestone:** Schematic + Testbench + DC/AC/Transient Analysis + Initial Layout
-
-**Next milestone:** Complete Layout → DRC → LVS → Post-Layout Simulation
